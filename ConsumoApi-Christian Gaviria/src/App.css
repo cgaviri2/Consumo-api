@@ -1,0 +1,101 @@
+/* Reseteamos algunos márgenes por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7; /* Color de fondo claro */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.pokemon-container {
+  margin-top: 20px;
+}
+
+.pokemon-container img {
+  width: 120px;
+  height: 120px;
+}
+
+.pokemon-detail {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.pokemon-detail h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.pokemon-detail p {
+  font-size: 16px;
+  color: #666;
+}
+
+.pokemon-detail button {
+  background-color: #dc3545;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.pokemon-detail button:hover {
+  background-color: #c82333;
+}
